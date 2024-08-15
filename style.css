@@ -166,4 +166,7 @@ justify-content: space-between;
         align-self: center;
         text-align: center;
     }
+    #tech{
+        width: 25%;
+    }
 }
