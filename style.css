@@ -8,6 +8,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Segoe UI';
 
 }
 
@@ -67,15 +68,15 @@ body {
         /* background-color: blue; */
         padding: 15px;
         /* color: white; */
-        background-color: rgba(64, 0, 255, 0.679);
-        color: white;
+        background-color: #ADBBDA;
+        color: black;
        
         
        
     }
     #cards #card h1{
         font-size: 10px;
-        color: white;
+        color: black;
     
        
     }
@@ -98,17 +99,14 @@ body {
     }
     .menu a{
         text-decoration: none;
-        color: #fff;
+        color: black;
+        pad: 5px;
     }
-    .menu a :hover{
-        background-color: red;
-        padding: 10px;
-        border: 1px solid black;
-
-    }
+   
   .navbar  .menu li  a:hover{
-      background-color: black;
+      background-color:green;
       color: white;
+      padding: 5px;
     }
     .navbar{
         display: flex;
@@ -118,5 +116,25 @@ justify-content: space-between;
    .navbar #logo{
         font-size: 15px;
 
+    }
+    .sec2{
+        display: flex;
+    }
+    #left{
+        width: 50%;
+
+        
+    }
+    #right{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #img{
+        width: px;
+        height: 80px;
+        border-radius: 30px;
     }
 }
