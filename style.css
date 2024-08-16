@@ -188,4 +188,60 @@ justify-content: space-between;
         align-items: center;
         text-align: center;
     }
+
+
+#project{
+    width: 100%;
+    min-height: 72%;
+    background-color: #ADBBDA;
+    padding: 20px 20px ;
+}
+#pimg{
+    width: 100%;
+}
+#lang{
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+}
+#btn
+{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+}
+#btn1{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+}
+#btn1 :hover{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #fff;
+}
+#btn:hover
+{
+    text-decoration: none;
+    border: none;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
