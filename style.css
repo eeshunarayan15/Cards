@@ -198,6 +198,10 @@ justify-content: space-between;
 }
 #pimg{
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-sizing: border-box;
 }
 #lang{
     display: flex;
